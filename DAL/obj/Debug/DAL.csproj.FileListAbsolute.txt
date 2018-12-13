@@ -1,0 +1,16 @@
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\UniProject.DAL.dll.config
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\UniProject.DAL.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\UniProject.DAL.pdb
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\EntityFramework.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\EntityFramework.xml
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\UniProject.DAL.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\UniProject.DAL.pdb
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\UniProject.DTO.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\UniProject.DTO.pdb
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_DB.resources
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

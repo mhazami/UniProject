@@ -1,0 +1,6 @@
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\BLL\bin\Debug\UniProject.BLL.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\BLL\bin\Debug\UniProject.BLL.pdb
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\BLL\obj\Debug\UniProject.BLL.dll
+C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\BLL\obj\Debug\UniProject.BLL.pdb
