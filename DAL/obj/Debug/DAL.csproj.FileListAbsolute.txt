@@ -14,3 +14,20 @@ C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\
 C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\bin\Debug\UniProject.DTO.pdb
 C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_DB.resources
 C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\WorkSpace\UniProject\DAL\bin\Debug\UniProject.DAL.dll.config
+E:\WorkSpace\UniProject\DAL\bin\Debug\UniProject.DAL.dll
+E:\WorkSpace\UniProject\DAL\bin\Debug\UniProject.DAL.pdb
+E:\WorkSpace\UniProject\DAL\bin\Debug\EntityFramework.dll
+E:\WorkSpace\UniProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\WorkSpace\UniProject\DAL\bin\Debug\UniProject.DTO.dll
+E:\WorkSpace\UniProject\DAL\bin\Debug\UniProject.DTO.pdb
+E:\WorkSpace\UniProject\DAL\bin\Debug\EntityFramework.xml
+E:\WorkSpace\UniProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_DB.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.dll
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.pdb
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Student.resources

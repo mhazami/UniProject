@@ -106,9 +106,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\creative.css" />
-    <Content Include="Content\css\creative.min.css" />
     <Content Include="Content\MdBootstrapPersianDateTimePicker\jquery.Bootstrap-PersianDateTimePicker.css" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\ken-burns.css" />
+    <Content Include="css\smoothbox.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -117,10 +122,64 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Areas\Admin\Views\web.config" />
-    <Content Include="Areas\UserPanel\Views\web.config" />
-    <Content Include="Areas\UserPanel\Views\Shared\_Layout.cshtml" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\W_YEKAN_0.TTF" />
+    <Content Include="fonts\yekan.eot" />
+    <Content Include="fonts\yekan.ttf" />
+    <Content Include="fonts\yekan.woff" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\a4.jpg" />
+    <Content Include="images\a6.jpg" />
+    <Content Include="images\b1.jpg" />
+    <Content Include="images\ba.jpg" />
+    <Content Include="images\ba1.jpg" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\banner2.jpg" />
+    <Content Include="images\c1.jpg" />
+    <Content Include="images\c2.jpg" />
+    <Content Include="images\c3.jpg" />
+    <Content Include="images\c4.jpg" />
+    <Content Include="images\img-sprite.png" />
+    <Content Include="images\p1.jpg" />
+    <Content Include="images\p2.jpg" />
+    <Content Include="images\p3.jpg" />
+    <Content Include="images\p4.jpg" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
+    <Content Include="images\w1.jpg" />
+    <Content Include="images\w2.jpg" />
+    <Content Include="images\w3.jpg" />
+    <Content Include="images\w4.jpg" />
+    <Content Include="images\w5.jpg" />
+    <Content Include="images\w6.jpg" />
+    <Content Include="images\w7.jpg" />
+    <Content Include="images\x1.jpg" />
+    <Content Include="images\x2.jpg" />
+    <Content Include="images\x3.png" />
+    <Content Include="images\x4.jpg" />
+    <Content Include="images\z1.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.zbox.min.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\numscroller-1.0.js" />
+    <Content Include="js\responsiveslides.min.js" />
+    <Content Include="js\smoothbox.jquery2.js" />
     <Content Include="Scripts\bootstrap-rtl.js" />
     <Content Include="Scripts\bootstrap-rtl.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -144,8 +203,6 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\UserPanel\UserPanelAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -156,6 +213,7 @@
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -166,11 +224,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\Shared\" />
-    <Folder Include="Areas\UserPanel\Controllers\" />
-    <Folder Include="Areas\UserPanel\Models\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

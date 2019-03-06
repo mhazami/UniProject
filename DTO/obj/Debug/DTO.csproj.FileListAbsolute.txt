@@ -4,3 +4,9 @@ C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DTO\obj\Debug\
 C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DTO\obj\Debug\UniProject.DTO.dll
 C:\Users\M-Azami\Documents\Visual Studio 2017\Projects\UniProject\DTO\obj\Debug\UniProject.DTO.pdb
+E:\WorkSpace\UniProject\DTO\bin\Debug\UniProject.DTO.dll
+E:\WorkSpace\UniProject\DTO\bin\Debug\UniProject.DTO.pdb
+E:\WorkSpace\UniProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\WorkSpace\UniProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\WorkSpace\UniProject\DTO\obj\Debug\UniProject.DTO.dll
+E:\WorkSpace\UniProject\DTO\obj\Debug\UniProject.DTO.pdb
