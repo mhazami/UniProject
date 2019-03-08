@@ -1,0 +1,79 @@
+﻿@model IEnumerable<UniProject.DTO.Course>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    td, th {
+        text-align: center;
+        padding: 0 !important;
+        padding: 5px 0 5px 0;
+    }
+
+    
+</style>
+<div class="banner-w3agile">
+    <div class="container">
+        <h3><a href="index.html">صفحه اصلی</a> / <span>دوره ها</span></h3>
+    </div>
+</div>
+<div class="serach-w3agile">
+    <div class="container">
+        <h3 class="tittle2">دوره های جستجو</h3>
+        <div class="place-grids">
+            <div class="col-md-2 place-grid">
+                <select class="sel">
+                    <option value="">دسته بندی ها</option>
+                </select>
+            </div>
+
+            <div class="col-md-4 place-grid">
+                <form action="#" method="post">
+                    <input type="submit" value="جستجو">
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="courses-w3ls">
+        <div class="container">
+            <table class="table table-bordered table-hover table-striped table-responsive">
+                <thead>
+                    <tr>
+                        <th>عنوان دوره</th>
+                        <th>مدرس</th>
+                        <th>تاریخ شروع</th>
+                        <th>شهریه</th>
+                        <th>روز برگزاری</th>
+                        <th class="sub"></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Title</td>
+                                <td>@item.Teacher.FirstName @item.Teacher.LastName</td>
+                                <td>@(string.IsNullOrEmpty(item.StartDate)?"-":item.StartDate)</td>
+                                <td>@(item.Price>0?item.Price.ToString("N0"):"رایگان")</td>
+                                <td>@item.Duration</td>
+                                <td>
+                                    <button id="btnRegisterCourse" class="btn btn-primary btn-xs">
+                                        ثبت نام
+                                        <span class="glyphicon glyphicon-check"></span>
+                                    </button>
+                                </td>
+
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

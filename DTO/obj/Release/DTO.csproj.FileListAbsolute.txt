@@ -1,0 +1,6 @@
+E:\WorkSpace\UniProject\DTO\bin\Release\UniProject.DTO.dll
+E:\WorkSpace\UniProject\DTO\bin\Release\UniProject.DTO.pdb
+E:\WorkSpace\UniProject\DTO\obj\Release\DTO.csprojAssemblyReference.cache
+E:\WorkSpace\UniProject\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+E:\WorkSpace\UniProject\DTO\obj\Release\UniProject.DTO.dll
+E:\WorkSpace\UniProject\DTO\obj\Release\UniProject.DTO.pdb

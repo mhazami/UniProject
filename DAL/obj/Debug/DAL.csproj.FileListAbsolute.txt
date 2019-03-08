@@ -31,3 +31,5 @@ E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.dll
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.pdb
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Student.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Course_Teacher.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.FixCourse.resources

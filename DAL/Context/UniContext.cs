@@ -16,5 +16,14 @@ namespace UniProject.DAL.Context
         public virtual DbSet<File> File { get; set; }
 
         public virtual DbSet<Student> Students { get; set; }
+
+        public virtual DbSet<Teacher> Teachers { get; set; }
+
+        public virtual DbSet<Course> Courses { get; set; }
+
+        public virtual DbSet<CourseStudent> CourseStudents { get; set; }
+
+        public virtual DbSet<CourseTeacher> CourseTeachers { get; set; }
+
     }
 }

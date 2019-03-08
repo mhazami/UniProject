@@ -10,3 +10,11 @@ E:\WorkSpace\UniProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
 E:\WorkSpace\UniProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 E:\WorkSpace\UniProject\BLL\obj\Debug\UniProject.BLL.dll
 E:\WorkSpace\UniProject\BLL\obj\Debug\UniProject.BLL.pdb
+E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DAL.dll
+E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DTO.dll
+E:\WorkSpace\UniProject\BLL\bin\Debug\EntityFramework.dll
+E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DAL.pdb
+E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DAL.dll.config
+E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DTO.pdb
+E:\WorkSpace\UniProject\BLL\bin\Debug\EntityFramework.xml
+E:\WorkSpace\UniProject\BLL\obj\Debug\BLL.csproj.CopyComplete

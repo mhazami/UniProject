@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessBase.cs" />
     <Compile Include="Context\UniContext.cs" />
     <Compile Include="Migrations\201812130656552_Create_DB.cs" />
     <Compile Include="Migrations\201812130656552_Create_DB.Designer.cs">
@@ -56,6 +57,14 @@
     <Compile Include="Migrations\201903052045542_Create_Student.cs" />
     <Compile Include="Migrations\201903052045542_Create_Student.Designer.cs">
       <DependentUpon>201903052045542_Create_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903072029428_Create_Course_Teacher.cs" />
+    <Compile Include="Migrations\201903072029428_Create_Course_Teacher.Designer.cs">
+      <DependentUpon>201903072029428_Create_Course_Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903072137500_FixCourse.cs" />
+    <Compile Include="Migrations\201903072137500_FixCourse.Designer.cs">
+      <DependentUpon>201903072137500_FixCourse.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +85,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903052045542_Create_Student.resx">
       <DependentUpon>201903052045542_Create_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903072029428_Create_Course_Teacher.resx">
+      <DependentUpon>201903072029428_Create_Course_Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903072137500_FixCourse.resx">
+      <DependentUpon>201903072137500_FixCourse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

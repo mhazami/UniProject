@@ -1,0 +1,14 @@
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.BLL.dll
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.BLL.pdb
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.DAL.dll
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.DTO.dll
+E:\WorkSpace\UniProject\BLL\bin\Release\EntityFramework.dll
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.DAL.pdb
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.DAL.dll.config
+E:\WorkSpace\UniProject\BLL\bin\Release\UniProject.DTO.pdb
+E:\WorkSpace\UniProject\BLL\bin\Release\EntityFramework.xml
+E:\WorkSpace\UniProject\BLL\obj\Release\BLL.csprojAssemblyReference.cache
+E:\WorkSpace\UniProject\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+E:\WorkSpace\UniProject\BLL\obj\Release\BLL.csproj.CopyComplete
+E:\WorkSpace\UniProject\BLL\obj\Release\UniProject.BLL.dll
+E:\WorkSpace\UniProject\BLL\obj\Release\UniProject.BLL.pdb

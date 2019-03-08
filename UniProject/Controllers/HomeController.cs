@@ -13,5 +13,15 @@ namespace UniProject.Controllers
         {
             return View();
         }
+
+        public ActionResult Header()
+        {
+            return PartialView("PVHeader");
+        }
+
+        public ActionResult Slider()
+        {
+            return PartialView("PVSlider");
+        }
     }
 }

@@ -59,7 +59,6 @@ E:\WorkSpace\UniProject\UniProject\bin\System.Web.Webpages.dll
 E:\WorkSpace\UniProject\UniProject\bin\System.Web.Webpages.Razor.dll
 E:\WorkSpace\UniProject\UniProject\bin\EntityFramework.xml
 E:\WorkSpace\UniProject\UniProject\bin\EntityFramework.SqlServer.xml
-E:\WorkSpace\UniProject\UniProject\bin\System.Web.Optimization.xml
 E:\WorkSpace\UniProject\UniProject\bin\System.Web.Razor.xml
 E:\WorkSpace\UniProject\UniProject\bin\System.Web.Webpages.xml
 E:\WorkSpace\UniProject\UniProject\bin\System.Web.Webpages.Deployment.xml
@@ -71,3 +70,11 @@ E:\WorkSpace\UniProject\UniProject\obj\Release\UniProject.csproj.CoreCompileInpu
 E:\WorkSpace\UniProject\UniProject\obj\Release\UniProject.csproj.CopyComplete
 E:\WorkSpace\UniProject\UniProject\obj\Release\UniProject.dll
 E:\WorkSpace\UniProject\UniProject\obj\Release\UniProject.pdb
+E:\WorkSpace\UniProject\UniProject\obj\Release\UniProject.csprojAssemblyReference.cache
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.BLL.dll
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.DAL.dll
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.DTO.dll
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.BLL.pdb
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.DAL.pdb
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.DAL.dll.config
+E:\WorkSpace\UniProject\UniProject\bin\UniProject.DTO.pdb
