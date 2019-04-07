@@ -98,6 +98,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\css\bootstrap-theme.min.css" />
+    <Content Include="Areas\Admin\css\bootstrap.rtl.min.css" />
+    <Content Include="Areas\Admin\css\Login.css" />
+    <Content Include="Areas\Admin\css\style.css" />
+    <Content Include="Areas\Admin\js\bootstrap.rtl.min.js" />
     <Content Include="Content\bootstrap-rtl.css" />
     <Content Include="Content\bootstrap-rtl.min.css" />
     <Content Include="Content\bootstrap-theme-rtl.css" />
@@ -106,6 +111,8 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\MdBootstrapPersianDateTimePicker\jquery.Bootstrap-PersianDateTimePicker.css" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -130,6 +137,9 @@
     <Content Include="fonts\yekan.eot" />
     <Content Include="fonts\yekan.ttf" />
     <Content Include="fonts\yekan.woff" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_Layoutadmin.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Login.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -151,6 +161,7 @@
     <Content Include="images\c3.jpg" />
     <Content Include="images\c4.jpg" />
     <Content Include="images\img-sprite.png" />
+    <Content Include="images\logo.jpeg" />
     <Content Include="images\p1.jpg" />
     <Content Include="images\p2.jpg" />
     <Content Include="images\p3.jpg" />
@@ -199,11 +210,22 @@
     <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\scrollreveal.js" />
     <Content Include="Scripts\scrollreveal.min.js" />
+    <Content Include="Scripts\summernote\plugin\summernote-ext-hello.js" />
+    <Content Include="Scripts\summernote\plugin\summernote-ext-hint.js" />
+    <Content Include="Scripts\summernote\plugin\summernote-ext-video.js" />
+    <Content Include="Scripts\summernote\summernote.css" />
+    <Content Include="Scripts\summernote\summernote.js" />
+    <Content Include="Scripts\summernote\summernote.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppCode\BaseController.cs" />
+    <Compile Include="AppCode\SessionParameters.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\CourseController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -220,6 +242,8 @@
     <Content Include="Views\Home\PVHeader.cshtml" />
     <Content Include="Views\Course\Index.cshtml" />
     <Content Include="Views\Home\PVSlider.cshtml" />
+    <Content Include="Views\Course\PVCourse.cshtml" />
+    <Content Include="Views\Course\PVGetDes.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -229,6 +253,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Course\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

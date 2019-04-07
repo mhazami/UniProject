@@ -1,0 +1,46 @@
+﻿
+@model IEnumerable<Course>
+
+<table class="table table-bordered table-hover table-striped table-responsive">
+        <thead>
+            <tr>
+                <th></th>
+                <th>عنوان دوره</th>
+                <th>طول دوره</th>
+                <th>زمان برگزاری</th>
+                <th>تاریخ شروع دوره</th>
+                <th>شهریه</th>
+                <th>مدرس</th>
+                <th>وضعیت ثبت نام</th>
+
+                <th class="sub"></th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <span onclick="showDes('@item.Id')" style="color:#0094ff" class="glyphicon glyphicon-eye-open"></span>
+                        </td>
+                        <td>@item.Title</td>
+                        <td>@item.Duration</td>
+                        <td>@item.ClassTime</td>
+                        <td>@item.StartDate</td>
+                        <td>@(item.Price > 0 ? item.Price.ToString("N0") : "رایگان")</td>
+                        <td>@item.Teacher.FirstName @item.Teacher.LastName</td>
+                        <td>@item.Status.GetDescription()</td>
+                        <td>
+                            <button id="btnRegisterCourse" class="btn btn-primary btn-xs">
+                                ثبت نام
+                                <span class="glyphicon glyphicon-check"></span>
+                            </button>
+                        </td>
+
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>

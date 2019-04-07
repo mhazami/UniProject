@@ -66,8 +66,18 @@
     <Compile Include="Migrations\201903072137500_FixCourse.Designer.cs">
       <DependentUpon>201903072137500_FixCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904071631405_fix_course.cs" />
+    <Compile Include="Migrations\201904071631405_fix_course.Designer.cs">
+      <DependentUpon>201904071631405_fix_course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904071809096_add_category.cs" />
+    <Compile Include="Migrations\201904071809096_add_category.Designer.cs">
+      <DependentUpon>201904071809096_add_category.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\EnumUtils.cs" />
+    <Compile Include="Utility\StringUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -91,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903072137500_FixCourse.resx">
       <DependentUpon>201903072137500_FixCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904071631405_fix_course.resx">
+      <DependentUpon>201904071631405_fix_course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904071809096_add_category.resx">
+      <DependentUpon>201904071809096_add_category.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

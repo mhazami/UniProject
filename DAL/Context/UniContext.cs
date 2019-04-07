@@ -25,5 +25,7 @@ namespace UniProject.DAL.Context
 
         public virtual DbSet<CourseTeacher> CourseTeachers { get; set; }
 
+        public virtual DbSet<Category> Categories { get; set; }
+
     }
 }

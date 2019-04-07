@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="CourseStudent.cs" />
     <Compile Include="CourseTeacher.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Slider.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Teacher.cs" />
+    <Compile Include="Tools\Enums.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

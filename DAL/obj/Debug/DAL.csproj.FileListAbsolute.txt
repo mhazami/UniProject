@@ -33,3 +33,5 @@ E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.pdb
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Student.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Course_Teacher.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.FixCourse.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_course.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_category.resources
