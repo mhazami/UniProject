@@ -38,7 +38,7 @@ namespace UniProject.DTO
         [Required(ErrorMessage = "لطفا نام خانوادگی خود را وارد کنید")]
         [Display(Name = "نام خانوادگی")]
         public string LastName { get; set; }
-      
+
 
         [MaxLength(11),]
         [Required(ErrorMessage = "لطفا شماره موبایل خود را وارد کنید")]
@@ -53,6 +53,9 @@ namespace UniProject.DTO
         [Required(ErrorMessage = "لطفا رمز عبور را وارد کنید")]
         [Display(Name = "رمز عبور")]
         public string Password { get; set; }
+
+        [EmailAddress]
+        public string Email { get; set; }
 
         #region temp
         [NotMapped]

@@ -148,8 +148,12 @@
     <Content Include="Areas\Admin\Views\UniCategory\Create.cshtml" />
     <Content Include="Areas\Admin\Views\UniCategory\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\UniCategory\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Panel\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Index.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile2.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="images\1.jpg" />
     <Content Include="images\3.jpg" />
@@ -233,6 +237,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\PanelController.cs" />
     <Compile Include="Areas\Admin\Controllers\UniCategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\UniCourseController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserController.cs" />
@@ -256,6 +261,7 @@
     <Content Include="Views\Course\PVCourse.cshtml" />
     <Content Include="Views\Course\PVGetDes.cshtml" />
     <Content Include="Views\Student\Login.cshtml" />
+    <Content Include="Views\Student\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

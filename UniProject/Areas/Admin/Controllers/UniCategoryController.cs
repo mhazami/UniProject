@@ -15,12 +15,16 @@ namespace UniProject.Areas.Admin.Controllers
         // GET: Admin/UniCategory
         public ActionResult Index()
         {
+            if (SessionParameters.User == null)
+                return Redirect("~/Admin/User/Login");
             var list = new CategoryBO().GetAll();
             return View(list);
         }
 
         public ActionResult Create()
         {
+            if (SessionParameters.User == null)
+                return Redirect("~/Admin/User/Login");
             return View(new Category());
         }
 
@@ -46,6 +50,8 @@ namespace UniProject.Areas.Admin.Controllers
 
         public ActionResult Edit(int id)
         {
+            if (SessionParameters.User == null)
+                return Redirect("~/Admin/User/Login");
             var category = new CategoryBO().Get(id);
             return View(category);
         }

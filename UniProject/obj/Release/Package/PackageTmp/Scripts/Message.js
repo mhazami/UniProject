@@ -1,5 +1,4 @@
-﻿/// <reference path="jquery-1.10.2.min.js" />
-
+﻿
 
 $(function () {
 
@@ -25,8 +24,8 @@ function ShowDefualtMessage(header, message) {
         .text(header)
         .appendTo(head);
 
-    var body = $('<div>').addClass('modal-body');
-    $('<p>').text(message).appendTo(body);
+    var body = $('<div>').addClass('modal-body').css('font-size', '16px').html(message);;
+    //$('<p>').text(message).appendTo(body);
 
     var footer = $('<div>').addClass('modal-footer');
     $('<button>')
@@ -34,7 +33,7 @@ function ShowDefualtMessage(header, message) {
         .attr('data-close', 'close')
         .attr('onclick', 'CloseMessage();')
         .attr('type', 'button')
-        .text('close')
+        .text('بستن')
         .appendTo(footer);
 
     content.append(head).append(body).append(footer);
@@ -65,8 +64,8 @@ function ShowSuccessMessage(header, message) {
         .text(header)
         .appendTo(head);
 
-    var body = $('<div>').addClass('modal-body');
-    $('<p>').text(message).appendTo(body);
+    var body = $('<div>').addClass('modal-body').css('font-size', '16px').html(message);;
+    //$('<p>').text(message).appendTo(body);
 
     var footer = $('<div>').addClass('modal-footer');
     $('<button>')
@@ -74,7 +73,7 @@ function ShowSuccessMessage(header, message) {
         .attr('data-close', 'close')
         .attr('onclick', 'CloseMessage();')
         .attr('type', 'button')
-        .text('close')
+        .text('بستن')
         .appendTo(footer);
 
     content.append(head).append(body).append(footer);
@@ -105,8 +104,8 @@ function ShowErrorMessage(header, message) {
         .text(header)
         .appendTo(head);
 
-    var body = $('<div>').addClass('modal-body');
-    $('<p>').text(message).appendTo(body);
+    var body = $('<div>').addClass('modal-body').css('font-size', '16px').html(message);;
+    //$('<p>').text(message).appendTo(body);
 
     var footer = $('<div>').addClass('modal-footer');
     $('<button>')
@@ -114,7 +113,7 @@ function ShowErrorMessage(header, message) {
         .attr('data-close', 'close')
         .attr('onclick', 'CloseMessage();')
         .attr('type', 'button')
-        .text('close')
+        .text('بستن')
         .appendTo(footer);
 
     content.append(head).append(body).append(footer);
@@ -144,8 +143,8 @@ function ShowWarningMessage(header, message) {
         .text(header)
         .appendTo(head);
 
-    var body = $('<div>').addClass('modal-body');
-    $('<p>').text(message).appendTo(body);
+    var body = $('<div>').addClass('modal-body').css('font-size', '16px').html(message);
+    //$('<p>').text(message).appendTo(body);
 
     var footer = $('<div>').addClass('modal-footer');
     $('<button>')
@@ -153,7 +152,7 @@ function ShowWarningMessage(header, message) {
         .attr('data-close', 'close')
         .attr('onclick', 'CloseMessage();')
         .attr('type', 'button')
-        .text('close')
+        .text('بستن')
         .appendTo(footer);
 
     content.append(head).append(body).append(footer);
@@ -184,8 +183,8 @@ function ShowInfoMessage(header, message) {
         .text(header)
         .appendTo(head);
 
-    var body = $('<div>').addClass('modal-body');
-    $('<p>').text(message).appendTo(body);
+    var body = $('<div>').addClass('modal-body').css('font-size', '16px').html(message);;
+    //$('<p>').text(message).appendTo(body);
 
     var footer = $('<div>').addClass('modal-footer');
     $('<button>')
@@ -193,7 +192,7 @@ function ShowInfoMessage(header, message) {
         .attr('data-close', 'close')
         .attr('onclick', 'CloseMessage();')
         .attr('type', 'button')
-        .text('close')
+        .text('بستن')
         .appendTo(footer);
 
     content.append(head).append(body).append(footer);
@@ -223,8 +222,8 @@ function ShowPrimaryMessage(header, message) {
         .text(header)
         .appendTo(head);
 
-    var body = $('<div>').addClass('modal-body');
-    $('<p>').text(message).appendTo(body);
+    var body = $('<div>').addClass('modal-body').css('font-size', '16px').html(message);;
+    //$('<p>').text(message).appendTo(body);
 
     var footer = $('<div>').addClass('modal-footer');
     $('<button>')
@@ -232,7 +231,7 @@ function ShowPrimaryMessage(header, message) {
         .attr('data-close', 'close')
         .attr('onclick', 'CloseMessage();')
         .attr('type', 'button')
-        .text('close')
+        .text('بستن')
         .appendTo(footer);
 
     content.append(head).append(body).append(footer);

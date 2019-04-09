@@ -17,3 +17,9 @@ E:\WorkSpace\UniProject\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
 E:\WorkSpace\UniProject\DAL\obj\Release\DAL.csproj.CopyComplete
 E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.dll
 E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.pdb
+E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.Migrations.fix_course.resources
+E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.Migrations.add_category.resources
+E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.Migrations.fix_db.resources
+E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.Migrations.add_capacity_course.resources
+E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.Migrations.fix_Student.resources
+E:\WorkSpace\UniProject\DAL\obj\Release\UniProject.DAL.Migrations.add_email_to_student.resources

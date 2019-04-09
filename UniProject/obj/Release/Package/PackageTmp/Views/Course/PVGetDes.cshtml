@@ -1,0 +1,4 @@
+﻿@model Course
+
+<h2>@Model.Title</h2>
+@Html.Raw(Server.HtmlDecode(Model.Description))

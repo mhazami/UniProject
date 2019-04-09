@@ -13,6 +13,17 @@ namespace UniProject.Areas.Admin.Controllers
     public class UserController : BaseController
     {
         // GET: Admin/User
+        public ActionResult Index()
+        {
+            if (SessionParameters.User.Username != "host")
+            {
+                SessionParameters.User = null;
+                return Redirect("~/Admin/User/Login");
+            }
+            var list = new UserBO().GetAll();
+            return View(list);
+        }
+
         public ActionResult Login()
         {
             return View();
@@ -30,12 +41,14 @@ namespace UniProject.Areas.Admin.Controllers
                     return Redirect("~/Admin/Panel/Index");
                 }
                 ShowMessage("نام کاربری یا رمز عبور اشتباه میباشد", Enums.MessageType.Error);
+                return View();
+
             }
             catch (Exception ex)
             {
                 ShowMessage(ex.Message, Enums.MessageType.Error);
+                return View();
             }
-            return View();
         }
 
         public ActionResult Loguot()
@@ -46,6 +59,11 @@ namespace UniProject.Areas.Admin.Controllers
 
         public ActionResult Create()
         {
+            if (SessionParameters.User.Username != "host")
+            {
+                SessionParameters.User = null;
+                return Redirect("~/Admin/User/Login");
+            }
             return View(new User());
         }
 
@@ -54,18 +72,22 @@ namespace UniProject.Areas.Admin.Controllers
         {
             try
             {
+               
                 if (!new UserBO().Insert(user))
                 {
                     ShowMessage("خطا در ورود اطلاعات", Enums.MessageType.Error);
+                    return View(user);
                 }
                 ShowMessage("اطلاعات کاربر جدید با موفقیت ثبت شد", Enums.MessageType.Success);
+                return View(new User());
             }
             catch (Exception ex)
             {
                 ShowMessage(ex.Message, Enums.MessageType.Error);
+                return View(User);
+
             }
 
-            return View(User);
         }
     }
 }

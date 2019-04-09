@@ -30,18 +30,20 @@ namespace UniProject.Controllers
                     return Redirect("~/Course/Index");
                 }
                 ShowMessage("نام کاربری یا رمز عبور اشتباه میباشد", MessageType.Error);
+                return Redirect("~/Course/Index");
+
             }
             catch (Exception ex)
             {
                 ShowMessage(ex.Message, MessageType.Error);
+                return View(student);
             }
-            return View();
         }
 
 
         public ActionResult Register()
         {
-            return View();
+            return View(new Student());
         }
 
         [HttpPost]
@@ -52,15 +54,18 @@ namespace UniProject.Controllers
                 if (!new StudentBO().Insert(student))
                 {
                     ShowMessage("خطا در ورود اطلاعات", MessageType.Error);
+                    return View(student);
                 }
                 ShowMessage("اطلاعات کاربر جدید با موفقیت ثبت شد", MessageType.Success);
+                SessionParameters.Student = student;
+                return Redirect("~/Course/Index");
             }
             catch (Exception ex)
             {
                 ShowMessage(ex.Message, MessageType.Error);
+                return View(student);
             }
 
-            return View(User);
         }
 
         public ActionResult Loguot()

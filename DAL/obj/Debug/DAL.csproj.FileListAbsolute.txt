@@ -38,3 +38,4 @@ E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_category.res
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_db.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_capacity_course.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_Student.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_email_to_student.resources

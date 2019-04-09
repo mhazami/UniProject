@@ -15,12 +15,16 @@ namespace UniProject.Areas.Admin.Controllers
         // GET: Admin/UniCourse
         public ActionResult Index()
         {
+            if (SessionParameters.User == null)
+                return Redirect("~/Admin/User/Login");
             var list = new CourseBO().GetAll();
             return View(list);
         }
 
         public ActionResult Create()
         {
+            if (SessionParameters.User == null)
+                return Redirect("~/Admin/User/Login");
             ViewBag.Category = new SelectList(new CategoryBO().GetAll(), "Id", "Title", "");
             ViewBag.Teacher = new SelectList(new TeacherBO().GetAll(), "Id", "LastName", "");
             return View(new Course());
@@ -48,6 +52,8 @@ namespace UniProject.Areas.Admin.Controllers
 
         public ActionResult Edit(int id)
         {
+            if (SessionParameters.User == null)
+                return Redirect("~/Admin/User/Login");
             var course = new CourseBO().Get(id);
             var category = new CategoryBO().Get(course.CategoryId);
             ViewBag.Category = new SelectList(new CategoryBO().GetAll(), "Id", "Title", category.Title);
