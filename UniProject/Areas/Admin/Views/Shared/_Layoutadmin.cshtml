@@ -1,26 +1,39 @@
 ﻿<!DOCTYPE html>
 
-<html lang="fa-IR" dir="rtl">
+<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>پنل مدیریت</title>
-    <link href="~/Content/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    @*<link href="~/Content/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />*@
     <meta charset="UTF-8" />
-
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     <script src="~/js/jquery.min.js"></script>
     <link href="~/Areas/Admin/css/bootstrap.rtl.min.css" rel="stylesheet" />
     <link href="~/Areas/Admin/css/bootstrap-theme.min.css" rel="stylesheet" />
     <script src="~/Areas/Admin/js/bootstrap.rtl.min.js"></script>
+
     <link href="~/Areas/Admin/css/style.css" rel="stylesheet" />
-    <script src="~/App_theme/DinaTheme/js/Message.js"></script>
+    <script src="~/Scripts/Message.js"></script>
+
     <link href="~/Scripts/summernote/summernote.css" rel="stylesheet" />
-    <script src="~/Scripts/summernote/summernote.min.js"></script>
+    <script src="~/Scripts/summernote/summernote.js"></script>
+    <style>
+        .container {
+            width: 950PX;
+        }
+    </style>
 </head>
 <body>
     <div class="sidenav">
-        <a href="#">مطالب</a>
+        <a href="/Admin/UniCourse/Index">دوره ها</a>
+        <a href="/Admin/UniCategory/Index">گروه درسی</a>
+        <a href="#">نشریه</a>
+        <a href="#">مدرسین</a>
         <a href="#">اسلایدر</a>
-        <a href="#">برندها</a>
+        <a href="#">گالری</a>
+        <a href="#">گزارشات</a>
+
+
     </div>
 
     <div class="main">
@@ -28,7 +41,7 @@
             <div class="header">
                 <div class="row">
                     <div class="logo">
-                        <img src="/Content/Images/dinaservice.png" />
+                        <img src="~/images/logo-white.jpeg" />
                     </div>
                 </div>
             </div>

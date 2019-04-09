@@ -1,46 +1,83 @@
 ﻿
 @model IEnumerable<Course>
+<script>
+    $(function () {
+        $('.reg').on('click', function () {
+            debugger;
+            var value = $(this).attr('data-value');
+            var key = $(this).attr('data-key');
+            $.get('/Course/Register', { id: key }, function (data) {
+                debugger;
+                if (data == "true") {
+                    ShowSuccessMessage("تبریک میگوییم !", "ثبت نام شما در دوره ی " + value + " با موفقیت انجام شد");
+                }
+                else if (data == "false") {
+                    ShowWarningMessage("!", "با عرض پوزش در حال حاضر ثبت نام در این دوره آموزشی امکان پذیر نمی باشد");
+                } else if (data == "login") {
+                    ShowWarningMessage("!", "جهت ثبت نام رایگان و شرکت در این دوره ابتدا باید به عضویت انجمن کامپیوتر پیام نور ری درآیید <br /><a href='/Student/Register' class='btn btn - xs btn - info'>عضویت</a>/<a href='/Student/Login' class='btn btn - xs btn - info'>ورود</a>");
+
+                } else if (data == "registered") {
+                    ShowInfoMessage('توجه', 'شما قبلا در این دوره ی آموزشی ثبت نام نموده اید جهت اطلاع از وضعیت ثبت نام خود  بر روی لینک زیر کلیک نمایید <br /><a href="/Student/Info" class="btn btn-xs btn-info">پیگیری وضعیت ثبت نام</a>');
+                } else if (data == "full") {
+                    ShowErrorMessage('با عرض پوزش', 'ظرفیت دوره تکمیل شده است');
+                    $(this).attr('disabled', 'disabled');
+                }
+            })
+
+        })
+    })
+</script>
 
 <table class="table table-bordered table-hover table-striped table-responsive">
-        <thead>
-            <tr>
-                <th></th>
-                <th>عنوان دوره</th>
-                <th>طول دوره</th>
-                <th>زمان برگزاری</th>
-                <th>تاریخ شروع دوره</th>
-                <th>شهریه</th>
-                <th>مدرس</th>
-                <th>وضعیت ثبت نام</th>
+    <thead>
+        <tr>
+            <th></th>
+            <th>عنوان دوره</th>
+            <th>طول دوره</th>
+            <th>زمان برگزاری</th>
+            <th>تاریخ شروع دوره</th>
+            <th>شهریه</th>
+            <th>مدرس</th>
+            <th>وضعیت ثبت نام</th>
 
-                <th class="sub"></th>
+            <th class="sub"></th>
 
-            </tr>
-        </thead>
-        <tbody>
-            @{
-                foreach (var item in Model)
-                {
-                    <tr>
-                        <td>
-                            <span onclick="showDes('@item.Id')" style="color:#0094ff" class="glyphicon glyphicon-eye-open"></span>
-                        </td>
-                        <td>@item.Title</td>
-                        <td>@item.Duration</td>
-                        <td>@item.ClassTime</td>
-                        <td>@item.StartDate</td>
-                        <td>@(item.Price > 0 ? item.Price.ToString("N0") : "رایگان")</td>
-                        <td>@item.Teacher.FirstName @item.Teacher.LastName</td>
-                        <td>@item.Status.GetDescription()</td>
-                        <td>
-                            <button id="btnRegisterCourse" class="btn btn-primary btn-xs">
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <span title="مشاهده اطلاعات دوره" onclick="showDes('@item.Id')" style="color:#0094ff" class="glyphicon glyphicon-eye-open"></span>
+                    </td>
+                    <td>@item.Title</td>
+                    <td>@item.Duration</td>
+                    <td>@item.ClassTime</td>
+                    <td>@item.StartDate</td>
+                    <td>@(item.Price > 0 ? item.Price.ToString("N0") : "رایگان")</td>
+                    <td>@item.Teacher.FirstName @item.Teacher.LastName</td>
+                    <td>@item.Status.GetDescription()</td>
+                    <td>
+                        @if (item.Status == UniProject.DTO.Tools.Enums.CourseStatus.Free)
+                        {
+                            <button data-value="@item.Title" data-key="@item.Id" class="btn btn-primary btn-xs reg">
                                 ثبت نام
                                 <span class="glyphicon glyphicon-check"></span>
                             </button>
-                        </td>
+                        }
+                        else
+                        {
+                            <button disabled="disabled" class="btn btn-primary btn-xs">
+                                ثبت نام
+                                <span class="glyphicon glyphicon-check"></span>
+                            </button>
+                        }
+                    </td>
 
-                    </tr>
-                }
+                </tr>
             }
-        </tbody>
-    </table>
+        }
+    </tbody>
+</table>

@@ -35,3 +35,6 @@ E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Course_Te
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.FixCourse.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_course.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_category.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_db.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_capacity_course.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_Student.resources

@@ -19,7 +19,19 @@ namespace UniProject.AppCode
             }
         }
 
-     
+        public static Student Student
+        {
+            get
+            {
+                if (HttpContext.Current.Session["Student"] != null)
+                    return (Student)HttpContext.Current.Session["Student"];
+                return null;
+            }
+            set
+            {
+                HttpContext.Current.Session["Student"] = value;
+            }
+        }
 
 
 

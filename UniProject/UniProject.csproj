@@ -117,6 +117,7 @@
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\font-awesome.css" />
+    <Content Include="css\glyphicon.css" />
     <Content Include="css\ken-burns.css" />
     <Content Include="css\smoothbox.css" />
     <Content Include="css\style.css" />
@@ -129,10 +130,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\W_YEKAN_0.TTF" />
     <Content Include="fonts\yekan.eot" />
     <Content Include="fonts\yekan.ttf" />
@@ -140,6 +137,17 @@
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_Layoutadmin.cshtml" />
     <Content Include="Areas\Admin\Views\User\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\UniCourse\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\UniCourse\Create.cshtml" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Areas\Admin\Views\UniCourse\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\UniCategory\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\UniCategory\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\UniCategory\Index.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -161,6 +169,7 @@
     <Content Include="images\c3.jpg" />
     <Content Include="images\c4.jpg" />
     <Content Include="images\img-sprite.png" />
+    <Content Include="images\logo-white.jpeg" />
     <Content Include="images\logo.jpeg" />
     <Content Include="images\p1.jpg" />
     <Content Include="images\p2.jpg" />
@@ -224,10 +233,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Controllers\CourseController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UniCategoryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UniCourseController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -244,6 +255,7 @@
     <Content Include="Views\Home\PVSlider.cshtml" />
     <Content Include="Views\Course\PVCourse.cshtml" />
     <Content Include="Views\Course\PVGetDes.cshtml" />
+    <Content Include="Views\Student\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

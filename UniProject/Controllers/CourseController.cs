@@ -33,7 +33,7 @@ namespace UniProject.Controllers
             }
             catch (Exception ex)
             {
-                ShowMessage("خطا در بازیابی اطلاعات", MessageType.Error);
+                ShowMessage(ex.Message, MessageType.Error);
                 return PartialView("PVCourse", new List<Course>());
             }
 
@@ -43,6 +43,32 @@ namespace UniProject.Controllers
         {
             var course = new CourseBO().Get(id);
             return PartialView("PVGetDes", course);
+        }
+
+        public ActionResult Register(int? id)
+        {
+            var capacity = new CourseStudentBO().Count(c => c.CourseId == id.Value);
+            var course = new CourseBO().Get(id.Value);
+            if (course.Capacity <= capacity) return Content("full");
+            if (!id.HasValue || id == 0) return Content("false");
+            if (SessionParameters.Student == null) return Content("login");
+            var stcousre = new CourseStudent()
+            {
+                StudentId = SessionParameters.Student.Id,
+                CourseId = id.Value
+            };
+            var obj = new CourseStudentBO().FirstOrDefault(c => c.CourseId == id.Value && c.StudentId == SessionParameters.Student.Id);
+            if (obj != null) return Content("registered");
+            if (!new CourseStudentBO().Insert(stcousre))
+            {
+                return Content("false");
+            }
+            if (course.Capacity <= capacity)
+            {
+                course.Status = CourseStatus.Full;
+                new CourseBO().Update(course);
+            }
+            return Content("true");
         }
     }
 }
