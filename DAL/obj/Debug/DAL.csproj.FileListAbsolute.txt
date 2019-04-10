@@ -24,21 +24,11 @@ E:\WorkSpace\UniProject\DAL\bin\Debug\UniProject.DTO.pdb
 E:\WorkSpace\UniProject\DAL\bin\Debug\EntityFramework.xml
 E:\WorkSpace\UniProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_DB.resources
 E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 E:\WorkSpace\UniProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.dll
 E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.pdb
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Student.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.Create_Course_Teacher.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.FixCourse.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_course.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_category.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_db.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_capacity_course.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_Student.resources
-E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.add_email_to_student.resources
 G:\MAzami\Reposiroty\UniProject\DAL\bin\Debug\UniProject.DAL.dll.config
 G:\MAzami\Reposiroty\UniProject\DAL\bin\Debug\UniProject.DAL.dll
 G:\MAzami\Reposiroty\UniProject\DAL\bin\Debug\UniProject.DAL.pdb
@@ -55,3 +45,4 @@ G:\MAzami\Reposiroty\UniProject\DAL\obj\Debug\UniProject.DAL.dll
 G:\MAzami\Reposiroty\UniProject\DAL\obj\Debug\UniProject.DAL.pdb
 G:\MAzami\Reposiroty\UniProject\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 G:\MAzami\Reposiroty\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_coursestudent.resources
+E:\WorkSpace\UniProject\DAL\obj\Debug\UniProject.DAL.Migrations.fix_coursestudent.resources

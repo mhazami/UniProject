@@ -22,6 +22,8 @@ namespace UniProject.BLL
             Student student = base.FirstOrDefault(c => c.Username == obj.Username);
             if (student != null)
                 throw new Exception("این نام کاربری قبلا در سیستم ثبت شده است");
+            if (base.Any(c => c.NationalCode == obj.NationalCode) || base.Any(c => c.StudentNumber == obj.StudentNumber))
+                throw new Exception("شما قبلا به عضویت انجمن درآمده اید");
             if (string.IsNullOrEmpty(obj.FirstName))
                 throw new Exception("لطفا نام خود را وارد کنید");
             if (string.IsNullOrEmpty(obj.LastName))

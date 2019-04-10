@@ -49,7 +49,7 @@ namespace UniProject.Controllers
         {
             var capacity = new CourseStudentBO().Count(c => c.CourseId == id.Value);
             var course = new CourseBO().Get(id.Value);
-            if (course.Capacity <= capacity) return Content("full");
+            if (course.Capacity <= capacity || course.Status != CourseStatus.Free) return Content("full");
             if (!id.HasValue || id == 0) return Content("false");
             if (SessionParameters.Student == null) return Content("login");
             var stcousre = new CourseStudent()

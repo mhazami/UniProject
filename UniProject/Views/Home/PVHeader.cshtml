@@ -17,9 +17,18 @@
 
 
                                 <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
-                                
+
                                 @student.FirstName @student.LastName
 
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a class="btn btn-default btn-xs" href="/Student/Register">ثبت نام</a>
+                            </li>
+                            <li>
+                                <a class="btn btn-default btn-xs" href="/Student/Login">ورود</a>
                             </li>
                         }
                     }

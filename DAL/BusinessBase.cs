@@ -85,7 +85,10 @@ namespace DAL
         }
 
 
-
+        public virtual bool Any(Expression<Func<TDBModel,bool>> query)
+        {
+            return db.Set<TDBModel>().Any(query);
+        }
     }
     public static class PredicateBuilder
     {

@@ -14,5 +14,13 @@ namespace UniProject.BLL
         {
             return base.Insert(obj);
         }
+
+        public override void CheckConstraint(CourseStudent obj)
+        {
+            if (base.Any(c => c.CourseId == obj.CourseId && c.Student.StudentNumber == obj.Student.StudentNumber) ||
+                base.Any(c => c.CourseId == obj.CourseId && c.Student.NationalCode == obj.Student.NationalCode))
+                throw new Exception("شما قبلا در این دوره آموزشی ثبت نام کرده اید");
+
+        }
     }
 }
