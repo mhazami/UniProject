@@ -7,13 +7,13 @@ namespace UniProject.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Create_Course_Teacher : IMigrationMetadata
+    public sealed partial class fix_coursestudent : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Create_Course_Teacher));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(fix_coursestudent));
         
         string IMigrationMetadata.Id
         {
-            get { return "201903072029428_Create_Course_Teacher"; }
+            get { return "201904100852268_fix_coursestudent"; }
         }
         
         string IMigrationMetadata.Source

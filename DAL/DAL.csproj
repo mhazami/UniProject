@@ -50,45 +50,9 @@
   <ItemGroup>
     <Compile Include="BusinessBase.cs" />
     <Compile Include="Context\UniContext.cs" />
-    <Compile Include="Migrations\201812130656552_Create_DB.cs" />
-    <Compile Include="Migrations\201812130656552_Create_DB.Designer.cs">
-      <DependentUpon>201812130656552_Create_DB.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903052045542_Create_Student.cs" />
-    <Compile Include="Migrations\201903052045542_Create_Student.Designer.cs">
-      <DependentUpon>201903052045542_Create_Student.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903072029428_Create_Course_Teacher.cs" />
-    <Compile Include="Migrations\201903072029428_Create_Course_Teacher.Designer.cs">
-      <DependentUpon>201903072029428_Create_Course_Teacher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201903072137500_FixCourse.cs" />
-    <Compile Include="Migrations\201903072137500_FixCourse.Designer.cs">
-      <DependentUpon>201903072137500_FixCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904071631405_fix_course.cs" />
-    <Compile Include="Migrations\201904071631405_fix_course.Designer.cs">
-      <DependentUpon>201904071631405_fix_course.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904071809096_add_category.cs" />
-    <Compile Include="Migrations\201904071809096_add_category.Designer.cs">
-      <DependentUpon>201904071809096_add_category.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904080537313_fix_db.cs" />
-    <Compile Include="Migrations\201904080537313_fix_db.Designer.cs">
-      <DependentUpon>201904080537313_fix_db.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904081904349_add_capacity_course.cs" />
-    <Compile Include="Migrations\201904081904349_add_capacity_course.Designer.cs">
-      <DependentUpon>201904081904349_add_capacity_course.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904082036021_fix_Student.cs" />
-    <Compile Include="Migrations\201904082036021_fix_Student.Designer.cs">
-      <DependentUpon>201904082036021_fix_Student.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904091528340_add_email_to_student.cs" />
-    <Compile Include="Migrations\201904091528340_add_email_to_student.Designer.cs">
-      <DependentUpon>201904091528340_add_email_to_student.cs</DependentUpon>
+    <Compile Include="Migrations\201904100852268_fix_coursestudent.cs" />
+    <Compile Include="Migrations\201904100852268_fix_coursestudent.Designer.cs">
+      <DependentUpon>201904100852268_fix_coursestudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,35 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812130656552_Create_DB.resx">
-      <DependentUpon>201812130656552_Create_DB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903052045542_Create_Student.resx">
-      <DependentUpon>201903052045542_Create_Student.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903072029428_Create_Course_Teacher.resx">
-      <DependentUpon>201903072029428_Create_Course_Teacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201903072137500_FixCourse.resx">
-      <DependentUpon>201903072137500_FixCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904071631405_fix_course.resx">
-      <DependentUpon>201904071631405_fix_course.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904071809096_add_category.resx">
-      <DependentUpon>201904071809096_add_category.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904080537313_fix_db.resx">
-      <DependentUpon>201904080537313_fix_db.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904081904349_add_capacity_course.resx">
-      <DependentUpon>201904081904349_add_capacity_course.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904082036021_fix_Student.resx">
-      <DependentUpon>201904082036021_fix_Student.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904091528340_add_email_to_student.resx">
-      <DependentUpon>201904091528340_add_email_to_student.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904100852268_fix_coursestudent.resx">
+      <DependentUpon>201904100852268_fix_coursestudent.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

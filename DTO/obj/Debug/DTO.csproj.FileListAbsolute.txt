@@ -10,3 +10,9 @@ E:\WorkSpace\UniProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 E:\WorkSpace\UniProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 E:\WorkSpace\UniProject\DTO\obj\Debug\UniProject.DTO.dll
 E:\WorkSpace\UniProject\DTO\obj\Debug\UniProject.DTO.pdb
+G:\MAzami\Reposiroty\UniProject\DTO\bin\Debug\UniProject.DTO.dll
+G:\MAzami\Reposiroty\UniProject\DTO\bin\Debug\UniProject.DTO.pdb
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Debug\UniProject.DTO.dll
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Debug\UniProject.DTO.pdb

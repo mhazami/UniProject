@@ -16,6 +16,7 @@
             var id = $(this).val();
             $.get('/Course/GetCourse', { id: id }, function (data) {
                 $('#table-course').html('');
+                $('#div-des').html('');
                 $('#table-course').html(data);
             })
         })

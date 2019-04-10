@@ -4,3 +4,9 @@ E:\WorkSpace\UniProject\DTO\obj\Release\DTO.csprojAssemblyReference.cache
 E:\WorkSpace\UniProject\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
 E:\WorkSpace\UniProject\DTO\obj\Release\UniProject.DTO.dll
 E:\WorkSpace\UniProject\DTO\obj\Release\UniProject.DTO.pdb
+G:\MAzami\Reposiroty\UniProject\DTO\bin\Release\UniProject.DTO.dll
+G:\MAzami\Reposiroty\UniProject\DTO\bin\Release\UniProject.DTO.pdb
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Release\DTO.csprojAssemblyReference.cache
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Release\UniProject.DTO.dll
+G:\MAzami\Reposiroty\UniProject\DTO\obj\Release\UniProject.DTO.pdb

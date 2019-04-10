@@ -18,3 +18,17 @@ E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DAL.dll.config
 E:\WorkSpace\UniProject\BLL\bin\Debug\UniProject.DTO.pdb
 E:\WorkSpace\UniProject\BLL\bin\Debug\EntityFramework.xml
 E:\WorkSpace\UniProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.BLL.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.BLL.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.DAL.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.DTO.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\EntityFramework.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.DAL.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.DAL.dll.config
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\UniProject.DTO.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Debug\EntityFramework.xml
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Debug\UniProject.BLL.dll
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Debug\UniProject.BLL.pdb

@@ -12,3 +12,17 @@ E:\WorkSpace\UniProject\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
 E:\WorkSpace\UniProject\BLL\obj\Release\BLL.csproj.CopyComplete
 E:\WorkSpace\UniProject\BLL\obj\Release\UniProject.BLL.dll
 E:\WorkSpace\UniProject\BLL\obj\Release\UniProject.BLL.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.BLL.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.BLL.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.DAL.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.DTO.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\EntityFramework.dll
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.DAL.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.DAL.dll.config
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\UniProject.DTO.pdb
+G:\MAzami\Reposiroty\UniProject\BLL\bin\Release\EntityFramework.xml
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Release\BLL.csprojAssemblyReference.cache
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Release\BLL.csproj.CopyComplete
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Release\UniProject.BLL.dll
+G:\MAzami\Reposiroty\UniProject\BLL\obj\Release\UniProject.BLL.pdb
